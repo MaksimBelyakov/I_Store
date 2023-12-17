@@ -24,6 +24,7 @@ const App = () => {
     <Header/>
     <div className="container">
       <Sidebar/>
+      
       <AppRoutes/>
     </div>
     <Footer/>

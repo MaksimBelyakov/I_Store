@@ -7,11 +7,11 @@ import Categories from '../Categories/Categories'
 const Home = () => {
   const { products, categories } = useSelector((state) => state)
   return (
-    <div>
+    <>
       <Poster/>
       <Products products={products.list} amount={5} title="Trending"/>
       <Categories categories={categories.list} amount={5} title="Worth seeing"/>
-    </div>
+    </>
   )
 }
 
